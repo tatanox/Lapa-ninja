@@ -21,27 +21,27 @@
 }
 .cocolo{
     text-align: center;
-    padding: 0px 80px;
+    
     padding-top: 1.5rem!important;
     padding-bottom: 1.5rem!important;
-    width:200px;
-    height:400px;
+    width:350px;
+    height:420px;
     color:#292B2C;
-    line-height: 2em;
-    padding:30px 90px;
+    line-height: 2.5em;
+    
 }
 .cocola{
-    padding: 0px 80px;
+    
     padding-top: 1.5rem!important;
     padding-bottom: 1.5rem!important;
     text-align: center;
     border-radius: 5px;
     color: white;
-    width:200px;
-    height:400px;
+    width:350px;
+    height:420px;
     background-color: #192440;
-    line-height: 2em;
-    padding:30px 90px;
+    line-height: 2.5em;
+    
 }
 .highnum{
     text-align: center;
@@ -84,12 +84,12 @@
     display:flex;
     flex-direction: row;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #ECEEEF;
-    
     padding-top: 4rem!important;
     padding-bottom: 4rem!important;
 }
+
 .fitou{
     display:flex;
     justify-content: center;
@@ -102,7 +102,7 @@
     
 }
 .blabla{
-    margin-right:60%;
+    margin-right:45%;
     min-width: 250px;
 }
 .allico{
@@ -117,23 +117,27 @@
     color: #192440;
     border-radius: 50%;
     background-color: white;
-    margin-right: 40px;
+    margin-right: 10px;
     line-height: 40px;
 }
-@media screen and (max-width: 768px) {
+.picbanner{
+    
+    padding:0px 0px;
+}
+
+/* phone */
+@media screen and (max-width:704px) {
     .contain_prices{
         display:flex;
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        
-        
-        
+        margin-bottom: 0px;
     }
     .fitou{
         display: flex;
         flex-direction: column;
-        padding:2rem 3rem;
+        padding:0;
     }
     .blabla{
         margin-right: 0;
@@ -170,5 +174,636 @@
         margin-bottom: 20px;
         width:110px;
         height: 60px;
+        
     }
 }
+
+
+/* partie Header Hassan*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+     
+    
+    }
+    
+    .top-left {
+      
+      position: absolute;
+      top: 80px;
+      left: 150px;
+      color: white;
+    }
+    
+    .top-right {
+     
+      position: absolute;
+      top: 80px;
+      right: 200px;
+      font-size: 20px;
+      color: white;
+     
+    }
+    
+    .top-right:hover{
+     
+      border-bottom: 1px solid white;
+     
+    }
+    
+    
+    
+    .left {
+     
+      position: absolute;
+      top:200px;
+      left: 150px;
+      color: white;
+      
+      
+    }
+    .left h1 {
+      
+      font-size: 50px;
+      
+    }
+    .left p {
+      
+      font-size: 20px;
+      
+    }
+  
+    
+    .btn  {
+      display: flex;
+      position: absolute;
+      width: 140px;
+      height: 50px;
+      color:black;
+      font-size: 17px;
+      background: #00FFAD;
+      border-radius: 22px;
+      top:500px;
+      left: 150px;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn :hover{
+     
+      color:white;
+      
+    }
+  
+    /* media quaries pour header Hassan */
+   
+  
+    @media (max-width: 600px) { 
+      .container {
+    
+        position: relative;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        }
+        
+        .top-left {
+          position: absolute;
+          color: white;
+          left: 20px;
+          padding: 5px;
+          top:40px;
+        }
+        
+        .top-right  {
+         
+          position: absolute;
+          color: white;
+          right: 20px;
+          top:  80px;
+         
+        }
+        .left {
+         
+          
+          position: absolute;
+          text-align: center;
+          color: white;
+          top: 45%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          
+         
+        }
+  
+        .left h1 {
+        
+          font-size: 50px;
+          color: white;
+          text-align: center; 
+        }
+  
+        .left p {
+         
+          font-size: 16px;
+          color: white;
+           
+          
+        }
+        .btn  {
+        
+          position: absolute;
+          width: 120px;
+          height: 40px;
+          color:black;
+          font-size: 17px;
+          background: #00FFAD;
+          border-radius: 22px;
+          align-items: center;
+          top:80%;
+          
+        }
+        .btn :hover{
+     
+          color:white;
+          
+        }
+  
+     }
+      /* pour tablet*/
+      @media (min-width: 600px) and (max-width: 1024px) {
+  
+        .container {
+    
+          position: relative;
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%;
+          }
+          
+          .top-left {
+            position: absolute;
+            color: white;
+            left: 20px;
+            padding: 5px;
+            top:40px;
+          }
+          
+          .top-right  {
+           
+            position: absolute;
+            color: white;
+            right: 20px;
+            top:  80px;
+           
+          }
+          
+          .top-right:hover{
+           
+            border-bottom: 1px solid white;
+           
+          }
+          
+          
+          
+          .left {
+           
+          position: absolute;
+          color: white;
+          width: 100%;
+          text-align: center;
+          top: 45%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+         
+            
+            
+          }
+          .left h1 {
+            
+            font-size: 50px;
+            
+          }
+          .left p {
+            
+            font-size: 20px;
+            
+          }
+        
+          
+          .btn  {
+        
+            position: absolute;
+            width: 120px;
+            height: 40px;
+            color:black;
+            font-size: 17px;
+            background: #00FFAD;
+            border-radius: 22px;
+            align-items: center;
+            top:70%;
+            
+          }
+          .btn :hover{
+       
+            color:white;
+            
+          }
+        }
+        
+  
+  
+  
+  
+  
+   
+   
+  
+   
+  
+  
+  
+  
+    /* partie Contact Hassan*/
+  
+   .contact{
+     position: relative;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content:space-around;
+     width: 100%;
+     height: 400px;
+     background: url(../img/contact.jpg);
+    
+     
+   }
+  
+  
+   .text{
+     position:absolute;
+     left: 150px;
+     top:40px;
+    
+   }
+  .titrecontact{
+    font-size: 30px;
+  }
+  .soustitre{
+    font-size: 17px;
+    padding: 3px;
+   
+  }
+  
+  .adresse ul {
+    padding: 0;
+  }
+  
+  .adresse ul li{
+    font-size: 17px;
+    list-style: none;
+    padding: 3px;
+    
+  }
+  
+  
+   .form{
+     position: absolute;
+     right: 10px;
+     top:80px;
+     color: #00FFAD;
+     background: none;
+     width: 50%;
+     
+    
+    
+   }
+  
+   input[type=text], label {
+    padding: 10px;
+    margin-top: 6px;
+    background: none;
+    border-radius: 10px;
+    width: 92%;
+  
+  }
+  input[type=text] {
+    border: 1px solid #00FFAD;
+   
+    
+  }
+  
+  
+  textarea {
+    height: 58px;
+    border: 1px solid #00FFAD;
+    background: none;
+    width: 99%;
+    margin-top: 6px;
+    border-radius: 10px;
+   
+    
+   
+    
+  }
+  input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    background-color: #00FFAD;
+    width: 82%;
+    border-radius: 10px;
+    margin-top: 20px;
+   
+  }
+  
+  input[type=submit]:hover {
+    transition: all 0.2s;
+    color: white;
+    transform: translate(0.3%, 0.4%);
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: row;
+    background: none;
+  }
+  
+  .row2{
+    margin-left: 50px;
+      background: none;
+    }
+  
+    .row3{
+      width: 82%;
+      margin-top : 10px;
+    }
+  
+  
+  
+  
+  /* media quaries pour mobile partie contact Hassan*/
+  @media (max-width: 600px) { 
+    .contact{
+      position: relative;
+      color: white;
+      width: 100%;
+      height: 600px; 
+      background: url(../img/contact.jpg);
+    }
+   
+    .photo{
+      width: 100%;
+      border: 2px solid red;
+    }
+    
+    .photo img{
+      width: 100%;
+      height: 100%;
+    }
+   
+   
+    .text{
+      position:absolute;
+      left: 10px;
+      top:10px;
+      
+     
+    }
+   .titrecontact h3{
+     font-size: 30px;
+     margin-top: 10px;
+    
+   }
+   .soustitre p{
+     font-size: 17px;
+     padding: 3px;
+     margin-top: -20px;
+    
+  
+   }
+   
+   .adresse ul {
+     padding: 0;
+     margin-top: -20px;
+   }
+  
+   
+   .adresse ul li{
+     font-size: 17px;
+     list-style: none;
+     padding: 3px;
+     
+   }
+   
+   
+    .form{
+      position: absolute;
+      left: 10px;
+      top:270px;
+      color: #00FFAD;
+      background: none;
+      width: 95%;
+     
+     
+     
+    }
+   
+    input[type=text], label {
+     padding: 10px;
+     margin-top: 6px;
+     background: none;
+     border-radius: 10px;
+     width: 95%;
+   
+   }
+   input[type=text] {
+     border: 1px solid #00FFAD;
+    
+     
+   }
+   
+   textarea {
+     height: 58px;
+     border: 1px solid #00FFAD;
+     background: none;
+     width: 99%;
+     margin-top: 6px;
+     border-radius: 10px;
+    
+     
+    
+     
+   }
+   input[type=submit] {
+     padding: 12px 20px;
+     border: none;
+     background-color: #00FFAD;
+     width: 100%;
+     border-radius: 10px;
+     margin-top: 20px;
+    
+   }
+   
+   input[type=submit]:hover {
+     transition: all 0.2s;
+     color: white;
+     transform: translate(0.3%, 0.4%);
+   }
+   
+   .row{
+     display: flex;
+     flex-direction: column;
+     background: none;
+   }
+  
+   .row2{
+     margin-left: 2px;
+      background: none;
+    }
+  
+    .row3{
+      width: 100%;
+      margin-top : 10px;
+    }
+  
+  
+  
+  }
+  
+   /* partie pour tablet contact Hassan*/
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .contact{
+      position: relative;
+      color: white;
+      width: 100%;
+      height: 600px;
+      background: url(../img/contact.jpg);
+      border : 5px solid green;   
+    }
+   
+    .photo{
+      width: 100%;
+      border: 2px solid red;
+    }
+    
+    .photo img{
+      width: 80%;
+      height: 80%;
+    }
+   
+   
+   
+    .text{
+      position:absolute;
+      left: 10px;
+      top:10px;
+      
+     
+    }
+   .titrecontact h3{
+     font-size: 30px;
+     margin-top: 10px;
+    
+   }
+   .soustitre p{
+     font-size: 17px;
+     padding: 3px;
+     margin-top: -20px;
+    
+  
+   }
+   
+   .adresse ul {
+     padding: 0;
+     margin-top: -20px;
+   }
+  
+   
+   .adresse ul li{
+     font-size: 17px;
+     list-style: none;
+     padding: 3px;
+     
+   }
+   
+   
+    .form{
+      position: absolute;
+      left: 10px;
+      top:220px;
+      color: #00FFAD;
+      background: none;
+      width: 95%;
+     
+     
+     
+    }
+   
+    input[type=text], label {
+     padding: 10px;
+     margin-top: 6px;
+     background: none;
+     border-radius: 10px;
+     width: 95%;
+   
+   }
+   input[type=text] {
+     border: 1px solid #00FFAD;
+    
+     
+   }
+   
+   textarea {
+     height: 58px;
+     border: 1px solid #00FFAD;
+     background: none;
+     width: 99%;
+     margin-top: 6px;
+     border-radius: 10px;
+    
+     
+    
+     
+   }
+   input[type=submit] {
+     padding: 12px 20px;
+     border: none;
+     background-color: #00FFAD;
+     width: 100%;
+     border-radius: 10px;
+     margin-top: 20px;
+    
+   }
+   
+   input[type=submit]:hover {
+     transition: all 0.2s;
+     color: white;
+     transform: translate(0.3%, 0.4%);
+   }
+   
+   .row{
+     display: flex;
+     flex-direction: column;
+     background: none;
+   }
+  
+   .row2{
+    margin-left: 2px;
+     background: none;
+   }
+  
+   .row3{
+     width: 100%;
+     margin-top : 10px;
+   }
+  
+    
+  }
