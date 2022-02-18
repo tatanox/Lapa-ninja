@@ -442,7 +442,7 @@
      justify-content:space-around;
      width: 100%;
      height: 400px;
-     background: url(../img/contact.jpg);
+     background: url(./contact.jpg);
     
      
    }
@@ -556,7 +556,7 @@
       color: white;
       width: 100%;
       height: 600px; 
-      background: url(../img/contact.jpg);
+      background: url(./contact.jpg);
     }
    
     .photo{
@@ -685,7 +685,7 @@
       color: white;
       width: 100%;
       height: 600px;
-      background: url(../img/contact.jpg);
+      background: url(./contact.jpg);
       border : 5px solid green;   
     }
    
