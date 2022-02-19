@@ -43,19 +43,22 @@
         </div>
     </section>
     
-    <?php include("indexcontact.php") ?>
+    
 
 
     <section class="bannerfun">
-        <img src="./img/logobannerfst.png" class="picbanner" alt="Bannière">
-        <img src="./img/logobannerscd.png" class="picbanner" alt="Bannière">
-        <img src="./img/logobannerfourth.png" class="picbanner" alt="Bannière">
-        <img src="./img/logobannerthrd.png" class="picbanner" alt="Bannière">
-        <img src="./img/logofith.png" class="picbanner" alt="Bannière">
-        <img src="./img/logobannerfinal.png" class="picbanner" alt="Bannière">
+        <div class="surprise">
+            <img src="./img/logobannerfst.png" class="picbanner" alt="Bannière">
+            <img src="./img/logobannerscd.png" class="picbanner" alt="Bannière">
+            <img src="./img/logobannerthrd.png" class="picbanner" alt="Bannière">
+            <img src="./img/logobannerfourth.png" class="picbanner" alt="Bannière">
+            <img src="./img/logofith.png" class="picbanner" alt="Bannière">
+            <img src="./img/logobannerfinal.png" class="picbanner" alt="Bannière">
+        </div>
     </section>
-    
+    <?php include("indexcontact.php") ?>
     <?php include("footer.php") ?>
     
 </body>
 </html>
+

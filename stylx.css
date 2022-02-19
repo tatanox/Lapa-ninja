@@ -108,6 +108,8 @@
 .allico{
     display: flex;
     flex-direction: row;
+    margin-right: 3%;
+    
 }
 .ico{
     align-items: center;
@@ -124,9 +126,46 @@
     
     padding:0px 0px;
 }
+.surprise{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+  text-align: center;
 
+}
+@media (min-width: 771px) and (max-width: 900px) {
+  .allico{
+    
+    margin-right: 38%;
+    margin-left: 30px;
+  }
+  .blabla{
+    margin-left: 40%;
+  }
+}
+
+/* Tablette */ 
+@media (min-width: 575px) and (max-width: 770px) {
+  
+  .surprise{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin:auto;
+    min-width: 436px;
+  }
+  .blabla{
+    margin-right: -3%;
+    min-width: 632px;
+  }
+  .allico{
+    margin-right: 210px;
+    margin-left: 30px;
+  }
+}
 /* phone */
-@media screen and (max-width:704px) {
+@media screen and (max-width:574px) {
     .contain_prices{
         display:flex;
         flex-direction:column;
@@ -137,7 +176,7 @@
     .fitou{
         display: flex;
         flex-direction: column;
-        padding:0;
+        
     }
     .blabla{
         margin-right: 0;
@@ -147,8 +186,9 @@
         display: flex;
         flex-direction: row;
         margin-top: 0;
+        
     }  
-    .bannerfun{
+    .surprise{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -686,7 +726,7 @@
       width: 100%;
       height: 600px;
       background: url(./contact.jpg);
-      border : 5px solid green;   
+        
     }
    
     .photo{
