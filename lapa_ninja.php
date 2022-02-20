@@ -56,7 +56,7 @@
             <img src="./img/logobannerfinal.png" class="picbanner" alt="Bannière">
         </div>
     </section>
-    <?php include("indexcontact.php") ?>
+    
     <?php include("footer.php") ?>
     
 </body>

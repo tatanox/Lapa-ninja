@@ -129,7 +129,7 @@
 .surprise{
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   
   text-align: center;
 
@@ -138,12 +138,15 @@
   .fitou{
     width: 100%;
   }  
+  .cocola{
+      min-width: 350px;
+  }
   .blabla{
   margin-right: 30%;
   margin-left: 0px;
   min-width: 250px;
   }
-
+}
 /* Tablette */ 
 @media (min-width: 575px) and (max-width: 770px) {
   
@@ -154,6 +157,25 @@
     margin:auto;
     min-width: 436px;
   }
+   .cocola{
+    width: 100%;
+    padding:0;
+    }
+   .cocolo{
+       padding:  0;
+       margin-top:30px;
+       width:100%;
+       
+       
+   }
+   .contain_prices{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    }
+  
   .blabla{
     margin-right: -3%;
     min-width: 632px;
@@ -216,4 +238,4 @@
         
     }
 }
-}
+
