@@ -621,7 +621,7 @@
      margin-top: 10px;
     
    }
-   .soustitre p{
+    .soustitre p{
      font-size: 17px;
      padding: 3px;
      margin-top: -20px;
@@ -629,13 +629,13 @@
   
    }
    
-   .adresse ul {
+    .adresse ul {
      padding: 0;
      margin-top: -20px;
    }
   
    
-   .adresse ul li{
+    .adresse ul li{
      font-size: 17px;
      list-style: none;
      padding: 3px;
@@ -662,26 +662,23 @@
      border-radius: 10px;
      width: 95%;
    
-   }
-   input[type=text] {
+    }
+    input[type=text] {
      border: 1px solid #00FFAD;
     
      
-   }
+    }
    
-   textarea {
+    textarea {
      height: 58px;
      border: 1px solid #00FFAD;
      background: none;
      width: 99%;
      margin-top: 6px;
      border-radius: 10px;
-    
-     
-    
-     
-   }
-   input[type=submit] {
+    }
+
+    input[type=submit] {
      padding: 12px 20px;
      border: none;
      background-color: #00FFAD;
@@ -691,19 +688,19 @@
     
    }
    
-   input[type=submit]:hover {
+    input[type=submit]:hover {
      transition: all 0.2s;
      color: white;
      transform: translate(0.3%, 0.4%);
    }
    
-   .row{
+    .row{
      display: flex;
      flex-direction: column;
      background: none;
    }
   
-   .row2{
+    .row2{
      margin-left: 2px;
       background: none;
     }
@@ -747,12 +744,12 @@
       
      
     }
-   .titrecontact h3{
+    .titrecontact h3{
      font-size: 30px;
      margin-top: 10px;
     
    }
-   .soustitre p{
+    .soustitre p{
      font-size: 17px;
      padding: 3px;
      margin-top: -20px;
@@ -760,13 +757,13 @@
   
    }
    
-   .adresse ul {
+     .adresse ul {
      padding: 0;
      margin-top: -20px;
    }
   
    
-   .adresse ul li{
+    .adresse ul li{
      font-size: 17px;
      list-style: none;
      padding: 3px;
@@ -800,7 +797,7 @@
      
    }
    
-   textarea {
+    textarea {
      height: 58px;
      border: 1px solid #00FFAD;
      background: none;
@@ -812,7 +809,7 @@
     
      
    }
-   input[type=submit] {
+    input[type=submit] {
      padding: 12px 20px;
      border: none;
      background-color: #00FFAD;
@@ -822,27 +819,25 @@
     
    }
    
-   input[type=submit]:hover {
+    input[type=submit]:hover {
      transition: all 0.2s;
      color: white;
      transform: translate(0.3%, 0.4%);
    }
    
-   .row{
+    .row{
      display: flex;
      flex-direction: column;
      background: none;
-   }
+    }
   
    .row2{
     margin-left: 2px;
-     background: none;
-   }
+    background: none;
+    }
   
-   .row3{
+    .row3{
      width: 100%;
      margin-top : 10px;
-   }
-  
-    
+    }
   }
