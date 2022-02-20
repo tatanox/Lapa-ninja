@@ -135,13 +135,15 @@
 
 }
 @media (min-width: 771px) and (max-width: 900px) {
+  .fitou{
+    width: 100%;
+  }
   .allico{
+    margin-right: 200px;
     
-    margin-right: 38%;
-    margin-left: 30px;
   }
   .blabla{
-    margin-left: 40%;
+    margin-left: 50%;
   }
 }
 
@@ -161,7 +163,7 @@
   }
   .allico{
     margin-right: 210px;
-    margin-left: 30px;
+    margin-left: 0px;
   }
 }
 /* phone */
