@@ -122,6 +122,11 @@
     margin-right: 10px;
     line-height: 40px;
 }
+.ico:hover{
+    background-color: #00FFAD;
+    color:white;
+}
+
 .picbanner{
     
     padding:0px 0px;
