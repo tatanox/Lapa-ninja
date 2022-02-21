@@ -1,0 +1,255 @@
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0;
+    padding:0;
+}
+.present{
+    margin-bottom: 50px;
+    font-size: 3em;
+    text-align: center;
+    color: #292B2C;
+}
+.price{
+    width: 100%;
+    margin: auto;
+}
+.contain_prices{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+
+}
+.cocolo{
+    text-align: center;
+    
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    width:350px;
+    height:420px;
+    color:#292B2C;
+    line-height: 2.5em;
+    
+}
+.cocola{
+    
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    width:350px;
+    height:420px;
+    background-color: #192440;
+    line-height: 2.5em;
+    
+}
+.highnum{
+    text-align: center;
+    font-size: 5.5rem;
+    font-weight: bold;
+}
+.firsttiti{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.7em;
+}
+.btn_free{
+    border: 2px solid #192440;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+    font-weight: bold;
+    color:#192440;
+    cursor:pointer;
+}
+.btn_frea{
+    border:none;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #00FFAD;
+    color:#192440;
+    cursor:pointer;
+    
+}
+.btn_free:hover{
+    color:white;
+    background-color:#192440;
+    transition-property: color, background;
+    transition-duration: 0.6s;
+}
+.btn_frea:hover{
+    color:white;
+   
+
+    transition-property: color;
+    transition-duration: 1s;
+}
+.bannerfun{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #ECEEEF;
+    padding-top: 4rem!important;
+    padding-bottom: 4rem!important;
+}
+
+.fitou{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #192440;
+    height: 100px;
+    width: 100%;
+    color: white;
+    
+}
+.blabla{
+    margin-right:45%;
+    min-width: 250px;
+}
+.allico{
+    display: flex;
+    flex-direction: row;
+    margin-right: 3%;
+    
+}
+.ico{
+    align-items: center;
+    min-height:40px;
+    min-width:40px;
+    border: 1px solid transparent;
+    color: #192440;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+    line-height: 40px;
+}
+.ico:hover{
+    background-color: #00FFAD;
+    color:white;
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+.picbanner{
+    
+    padding:0px 0px;
+}
+.surprise{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+  text-align: center;
+
+}
+@media (min-width: 771px) and (max-width: 900px) {
+  .fitou{
+    width: 100%;
+  }  
+  .cocola{
+      min-width: 350px;
+  }
+  .blabla{
+  margin-right: 30%;
+  margin-left: 0px;
+  min-width: 250px;
+  }
+}
+/* Tablette */ 
+@media (min-width: 575px) and (max-width: 770px) {
+  
+  .surprise{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%;
+    margin:auto;
+    min-width: 436px;
+  }
+   .cocola{
+    width: 100%;
+    padding:0;
+    }
+   .cocolo{
+       padding:  0;
+       margin-top:30px;
+       width:100%;
+       
+       
+   }
+   .contain_prices{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    }
+  
+  .blabla{
+    margin-right: -3%;
+    min-width: 632px;
+  }
+  .allico{
+    margin-right: 210px;
+    margin-left: 0px;
+  }
+}
+/* phone */
+@media screen and (max-width:574px) {
+    .contain_prices{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    .fitou{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .blabla{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .allico{
+        display: flex;
+        flex-direction: row;
+        margin-top: 0;
+        
+    }  
+    .surprise{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+        margin: auto;
+    }
+    .cocola{
+        width: 100%;
+        padding:0;
+        
+        
+    }
+    .cocolo{
+        padding:  0;
+        margin-top:30px;
+        width:100%;
+        
+        
+    }
+    .picbanner{
+        margin: auto;
+        width:100%;
+        margin-bottom: 20px;
+        width:110px;
+        height: 60px;
+        
+    }
+}
+
