@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylx.css">
-    <script src="https://kit.fontawesome.com/b6728b60f5.js" crossorigin="anonymous"></script>
-    <title>Lapa ninja</title>
-</head>
-<body>
+
     <section class="prices">
         <h1 class="present">Check our pricing</h1>
         <div class="contain_prices">
@@ -48,17 +38,13 @@
 
     <section class="bannerfun">
         <div class="surprise">
-            <img src="./img/logobannerfst.png" class="picbanner" alt="Bannière">
-            <img src="./img/logobannerscd.png" class="picbanner" alt="Bannière">
-            <img src="./img/logobannerthrd.png" class="picbanner" alt="Bannière">
-            <img src="./img/logobannerfourth.png" class="picbanner" alt="Bannière">
-            <img src="./img/logofith.png" class="picbanner" alt="Bannière">
-            <img src="./img/logobannerfinal.png" class="picbanner" alt="Bannière">
+            <img src="../assets/img/logobannerfst.png" class="picbanner" alt="Bannière">
+            <img src="../assets/img/logobannerscd.png" class="picbanner" alt="Bannière">
+            <img src="../assets/img/logobannerthrd.png" class="picbanner" alt="Bannière">
+            <img src="../assets/img/logobannerfourth.png" class="picbanner" alt="Bannière">
+            <img src="../assets/img/logofith.png" class="picbanner" alt="Bannière">
+            <img src="../assets/img/logobannerfinal.png" class="picbanner" alt="Bannière">
         </div>
     </section>
-    
-    <?php include("footer.php") ?>
-    
-</body>
-</html>
+
 

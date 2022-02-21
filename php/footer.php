@@ -15,3 +15,4 @@
             </button>
         </div>
 </footer>
+<script src="https://kit.fontawesome.com/b6728b60f5.js" crossorigin="anonymous"></script>
