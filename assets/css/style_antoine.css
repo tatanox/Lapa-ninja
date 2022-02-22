@@ -333,10 +333,10 @@ h2 {
 }
 .active.fade-right {
   animation: fade-right 1s ease-in no-repeat;
-}
+}/*
 .active.tabarnak{
   animation: tabarnak 1s ease-in no-repeat;
-}
+}*/
 /*keyframes*/
 @keyframes fade-bottom {
   0% {
@@ -368,7 +368,7 @@ h2 {
     transform: translateX(0);
     opacity: 1;
   }
-}
+}/*
 @keyframes tabarnak{
   0%{
     transform: translateY(100px)
@@ -376,7 +376,7 @@ h2 {
   100%{
     transform: translateY(0)
   }
-}
+}*/
 /*Media Queries*/
   @media (max-width: 575px) {
     #banner h1 {
