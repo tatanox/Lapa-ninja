@@ -21,6 +21,7 @@ align-items: center;
 width: 33%;
 height: 80%;
 } 
+
 .belladonna{
   font-size: 1.5rem;
    margin-top: 0;
@@ -43,7 +44,7 @@ width : 30%;
   flex-direction: row;
   align-items: center;
   height: 50vh;
-  width: 100vw;
+
 }
 .orange_bud{
   display: flex;
@@ -74,8 +75,7 @@ width : 30%;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+
 }
 .text-center {
   text-align: center !important;
@@ -207,6 +207,7 @@ h2 {
   a,
   button {
     cursor: pointer;
+    text-decoration: none;
   }
   .jumbotron {
     margin-bottom: 0 !important;
@@ -315,8 +316,77 @@ h2 {
   #copyright #social-media a:hover i {
     color: #fff;
   }
+/*movement*/
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in no-repeat;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in no-repeat;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in no-repeat;
+}
+.active.tabarnak{
+  animation: tabarnak 1s ease-in no-repeat;
+}
+/*keyframes*/
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes tabarnak{
+  0%{
+    transform: translateY(100px)
+  }
+  100%{
+    transform: translateY(0)
+  }
+}
+/*Media Queries*/
   @media (max-width: 575px) {
     #banner h1 {
       font-size: 3.6rem;
     }
   }
+  
+  @media (min-width: 768px){
+.text-md-left {
+    text-align: left!important;
+}
+
+}
