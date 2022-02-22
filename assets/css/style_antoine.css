@@ -384,9 +384,36 @@ h2 {
     }
   }
   
-  @media (min-width: 768px){
+  @media (min-width: 769px){
 .text-md-left {
     text-align: left!important;
 }
-
+}
+@media (max-width: 768px){
+.container1{
+display: flex;
+align-content: center;
+justify-content: center;
+flex-direction: column;
+}
+.white_widow{
+  display: flex;
+  flex-direction: column;
+}
+.lemon_haze{
+  display: flex;
+  flex-direction: column;
+}
+.alien_kush{
+  display: flex;
+  flex-direction: column;
+}
+.acapulco_gold{
+  display: flex;
+  flex-direction: column;
+}
+.orange_bud{
+  display: flex;
+  flex-direction: column;
+}
 }

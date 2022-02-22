@@ -9,7 +9,7 @@
                 Up to 3 Reviews<br />
                 5 team Members<br />
                 Limited Support<br />
-                <button class="btn_free  reveala tabarnak">Get Free</button>
+                <button class="btn_free" reveala tabarnak>Get Free</button> /* */
             </div>
 
             <div class="cocola reveal fade-bottom">
