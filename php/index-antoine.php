@@ -56,4 +56,43 @@
     </div><!--container close-->
 </div><!--jumbol close-->
 </div>
+<div>
+<div class="jumbotron jumbotron-fluid feature alien_kush1" id="feature-first" ><!-- jumbof open-->
+    <div class="container1 my-5"><!--container open-->
+    <div class=" justify-content-between text-center text-md-left acapulco_gold"><!--row justified open-->
+        <div class="col-md-6 aos-init aos-animate orange_bud reveal fade-left"><!--fade right open-->
+            <h2 class="font-weight-bold">Take a look inside</h2>
+            <p class="my-4">Te iisque labitur eos, nec sale argumentum scribentur no,
+                <br>
+                augue disputando in vim. Erat fugit sit at, ius lorem deserunt deterruisset no.
+            </p>
+            <a href="#" class="btn1 my-4 font-weight-bold atlas-cta cta-blue"> Learn more</a>
+        </div><!--fade right close-->
+        <div class="col-md-6 align-self-center aos-init aos-animate reveal fade-right"><!--fade left open-->
+            <img src="https://www.lapa.ninja/lab/atlas/img/feature-1.png" alt="Take a look inside" class="mx-auto d-block">
+        </div><!--fade left-->
+    </div><!--row justified close-->
+    </div><!--container close-->
+</div><!--jumbof close-->
+
+<div class="jumbotron jumbotron-fluid feature alien_kush1" id="feature-last"><!--jumbol open-->
+    <div class="container1"><!--container open-->
+        <div class=" justify-content-between text-center text-md-left acapulco_gold"><!--row justified open-->
+            
+            <div class="col-md-6 flex-md-last aos-init aos-animate orange_bud reveal fade-right"><!--fade left open-->
+                <h2 class="font-weight-bold">Safe and reliable</h2>
+                <p class="my-4">Duo suas detracto maiestatis ad, commodo lucilius invenire nec ad,
+                    <br>
+                    eum et oratio disputationi. Falli lobortis his ad
+                </p>
+                <a href="#" class="btn1 my-4 font-weight-bold atlas-cta cta-blue">Learn more</a>
+            </div><!--fade left close-->
+            <div class="col-md-6 align-self-center flex-md-first aos-init aos-animate reveal fade-left"><!--fade right open-->
+                <img src="https://www.lapa.ninja/lab/atlas/img/feature-2.png" alt="Safe and reliable"class="mx-auto d-block">
+            </div><!--fade right close-->
+        </div><!--row justified close-->
+    </div><!--container close-->
+</div><!--jumbol close-->
+</div>
+</div>
 <script src="../assets/js/js_antoine.js"></script>

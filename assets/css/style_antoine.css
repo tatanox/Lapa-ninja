@@ -46,6 +46,9 @@ width : 30%;
   height: 50vh;
 
 }
+.alien_kush1{
+  display: none;
+}
 .orange_bud{
   display: flex;
   flex-direction: column;
@@ -65,6 +68,7 @@ width : 30%;
   justify-content: center;
   margin: 0%;
 } 
+
 #feature-first {
   background: linear-gradient(168deg, #ffffff 55%, #00ffad 0);
 }
@@ -392,28 +396,126 @@ h2 {
 @media (max-width: 768px){
 .container1{
 display: flex;
-align-content: center;
+align-content: none;
 justify-content: center;
 flex-direction: column;
 }
 .white_widow{
   display: flex;
   flex-direction: column;
+  justify-content:center;
+  align-content: center;
+  height: 100vh;
+  
 }
 .lemon_haze{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
-.alien_kush{
+.try{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.alien_kush{
+  display: none;
+  
+}
+.alien_kush1{
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  width: 100vw;
+  margin: 0% 0%;
 }
 .acapulco_gold{
   display: flex;
   flex-direction: column;
+  
 }
 .orange_bud{
   display: flex;
   flex-direction: column;
 }
+.container {
+  background: url(https://www.lapa.ninja/lab/atlas/img/banner-bk.jpg); 
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height:75vh;
+  }
+  .imghead{
+    display:none;
+  }
+  .top-left {
+    position: absolute;
+    color: white;
+    left: 20px;
+    padding: 5px;
+    top:40px;
+  }
+  
+  .top-right  {
+   
+    position: absolute;
+    color: white;
+    right: 20px;
+    top:  80px;
+   
+  }
+  .left {
+   
+    
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    
+   
+  }
+
+  .left h1 {
+  
+    font-size: 50px;
+    color: white;
+    text-align: center; 
+  }
+
+  .left p {
+   
+    font-size: 16px;
+    color: white;
+     
+    
+  }
+  .btn  {
+  
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    color:black;
+    font-size: 17px;
+    background: #00FFAD;
+    border-radius: 22px;
+    align-items: center;
+    top:80%;
+    
+  }
+  .btn :hover{
+
+    color:white;
+    
+  }
+
 }
+
